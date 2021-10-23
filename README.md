@@ -11,11 +11,15 @@ This project performs Linear Regression, predict the 'Price' from the test set, 
 Model, year, price, transmission, mileage, fuelType, mpg, and engineSize.
 
 ### Tasks
-- Load the data,
-- Separating the numeric features and target variable,
-- Split the original dataset into the train set (80%) and the test set (20%), 
-- Perform Linear Regression and Predict the 'Price' from the test set, 
-- Find the RMSE value from the actual test data and the predicted data.
+1. Load the dataset
+2. Explain the features and target variable
+3. Deal with the missing values
+4. Perform One-hot Encoding
+5. Split the dataset into 80% training and 20% for testing. Add random state and stratification
+6. Perform the training with Decision Tree Classifier
+7. Show a tree diagram of the Decision Tree
+8. Show the Confusion Matrix, Classification report, and ROC-AUC
+9. Explain your outcome.
 
 #### References
 Dataset source: https://www.kaggle.com/aishwaryamuthukumar/cars-dataset-audi-bmw-ford-hyundai-skoda-vw
