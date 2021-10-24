@@ -1,14 +1,14 @@
-# Ford used car analysis
+# processed Cleaveland data analysis
 #### Submitted by:<br>
 Nabila Tajrin Bristy<br>
 IIT, University of Dhaka<br>
 Dhaka, Bangladesh
 
 ### Objective
-This project performs Linear Regression, predict the 'Price' from the test set, and find the RMSE value from the actual test data and the predicted data of used Ford cars.
-
-### Variables
-Model, year, price, transmission, mileage, fuelType, mpg, and engineSize.
+- One-hot Encoding
+- random state and stratification
+- Decision Tree Classifier
+- Confusion Matrix, Classification report, and ROC-AUC
 
 ### Tasks
 1. Load the dataset
@@ -22,4 +22,4 @@ Model, year, price, transmission, mileage, fuelType, mpg, and engineSize.
 9. Explain your outcome.
 
 #### References
-Dataset source: https://www.kaggle.com/aishwaryamuthukumar/cars-dataset-audi-bmw-ford-hyundai-skoda-vw
+Dataset source: https://archive.ics.uci.edu/ml/datasets/heart+disease
